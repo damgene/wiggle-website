@@ -5,12 +5,12 @@ import { ThemeProvider, createTheme } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
 import { Box } from '@mui/material';
 
-import Layout from './components/Layout.tsx';
-import Dashboard from './pages/Dashboard.tsx';
-import Opportunities from './pages/Opportunities.tsx';
-import Tokens from './pages/Tokens.tsx';
-import Exchanges from './pages/Exchanges.tsx';
-import Analytics from './pages/Analytics.tsx';
+import Layout from './components/Layout';
+import Dashboard from './pages/Dashboard';
+import Opportunities from './pages/Opportunities';
+import Tokens from './pages/Tokens';
+import Exchanges from './pages/Exchanges';
+import Analytics from './pages/Analytics';
 
 // Create Material-UI theme
 const theme = createTheme({
